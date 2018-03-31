@@ -1,0 +1,84 @@
+body {
+  height: 95vh;
+}
+
+  
+.App {
+  height: 95vh;
+}
+
+.App-header {
+  font-family: 'Aladin', serif;
+  font-size: 2em;
+  height: 5vh;
+  padding: 20px;
+  color: white;
+  background-image: radial-gradient(ellipse at right, hsla(220, 100%, 50%, 1) 30%, hsla(200, 100%, 50%, 1) 100%);
+}
+
+.App-header>a {
+  float: right;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  margin-left: 5px;
+  width: 120px;
+  outline: 1px white solid;
+}
+
+.App-header>a:hover {
+  background-color: blue;
+}
+
+.Sidebar-header {
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+aside {
+  background-image: radial-gradient(ellipse at right, hsla(220, 100%, 50%, 1) 30%, hsla(200, 100%, 50%, 1) 100%);
+  overflow: hidden;
+  transition: width 200ms ease;
+}
+
+aside.open {
+  height: 90vh;
+  width: 300px;
+}
+
+aside.closed {
+  font-size: 0px;
+  height: 90vh;
+  width: 50px;
+}
+
+.main-menu {
+  clear: left;
+  margin: 10px;
+  width: 150px;
+  float: left;
+}
+
+.menu-button {
+  padding: 15px;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background: hsl(200, 100%, 80%);
+}
+
+.menu-bar {
+  background: hsl(200, 100%, 80%);
+  width: 300px;
+  height: 50px;
+}
+
+aside>h1 {
+  float: left;
+  font-family: serif;
+  font-size: 0.5em;
+}
